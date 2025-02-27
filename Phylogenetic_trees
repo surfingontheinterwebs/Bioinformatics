@@ -1,0 +1,14 @@
+3.
+muscle_expanse -seqtype auto -in infile.fasta -maxiters 16 -log logfile.txt -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta 
+
+raxmlHPC-HYBRID_8.2.12_expanse -n result -s infile.txt -c 25 -p 12345 -m PROTCATDAYHOFF -f a -N 100 -x 12345 --asc-corr lewis
+
+4.
+Dobsonia viridis - Greenish naked-backed fruit bat
+Syconycteris australis - Common blossom bat
+Cynopterus sphinx - Greater short-nosed fruit bat
+Epomophorus wahlbergi - Wahlberg's epauletted fruit bat
+Rousettus leschenaultii - Leschenault's rousette
+
+5.
+Ace2 is the first cellular target of SARS-coronaviruses.
